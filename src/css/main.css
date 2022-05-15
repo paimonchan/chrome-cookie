@@ -1,0 +1,29 @@
+body {
+  width   : 500px;
+}
+
+th {
+  max-width: 250px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+td {
+  max-width: 250px !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.form-check-label {
+  pointer-events:none;
+  font-size: 10px;
+  height:25px;
+}
